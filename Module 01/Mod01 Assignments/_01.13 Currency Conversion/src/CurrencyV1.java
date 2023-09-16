@@ -3,8 +3,8 @@
  * country into the equivalent currency of another country given 
  * the current exchange rate.
  *
- * @author Charles Babbage (replace with your name)
- * @version 06/02/17       (replace with today's date)
+ * @author Cristopher Encarnacion
+ * @version 09/16/23
  */
 public class CurrencyV1
 {
@@ -29,13 +29,13 @@ public class CurrencyV1
         System.out.println();
 
         // Conversion
-        // code goes below here
-
+		System.out.print("Mexico:");
 
 
 
         // Complete the code below for Souvenir Purchases
- 		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+	System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 		System.out.println("Souvenir Purchases");
 		System.out.println(" (all values in US Dollars) ");
 		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
