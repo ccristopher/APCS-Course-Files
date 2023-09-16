@@ -14,10 +14,19 @@ public class CurrencyV1
         double startingUsDollars = 6500.00;		// starting US Dollars
 
         double pesosSpent = 7210.25;            // Mexican Pesos spent
-        double pesoExchangeRate = 19.57852;     // 1 US dollar = 19.57852 Pesos
+        double pesoExchangeRate = 17.08;        // 1 US dollar = 19.57852 Pesos
         double dollarsSpentInMexico = 0.0;      // US dollars spent in Mexico
         double dollarsAfterMexico = 0.0;        // US dollars remaining after Mexico
-        //remaining variables below here
+
+		double yuanSpent = 4677.0;
+		double yuanExchangeRate = 7.2743;
+		double dollarsSpentInChina = 0.0;
+		double dollarsAfterChina = 0.0;
+
+		double pulaSpent = 19562.0;
+		double pulaExchangeRate = 13.66;
+		double dollarsSpentInBotswana = 0.0;
+		double dollarsAfterBotswana = 0.0;
 
         // Message to user stating purpose
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
@@ -29,42 +38,71 @@ public class CurrencyV1
         System.out.println();
 
         // Conversion
-		System.out.print("Mexico:");
+		System.out.println("Starting US dollars:            " + startingUsDollars);
+		System.out.println();
 
+		dollarsSpentInMexico = pesosSpent / pesoExchangeRate;
+		dollarsAfterMexico = startingUsDollars - dollarsSpentInMexico;
+		System.out.println("Mexico:");
+		System.out.println("   Pesos Spent:                 " + pesosSpent);
+		System.out.println("   US dollars equivalent:       " + dollarsSpentInMexico);
+		System.out.println("   US Dollars remaining:        " + dollarsAfterMexico);
+		System.out.println();
 
+		dollarsSpentInChina = yuanSpent / yuanExchangeRate;
+		dollarsAfterChina = dollarsAfterMexico - dollarsSpentInChina;
+		System.out.println("China:");
+		System.out.println("   Yuan Spent:                  " + yuanSpent);
+		System.out.println("   US dollars equivalent:       " + dollarsSpentInChina);
+		System.out.println("   US Dollars remaining:        " + dollarsAfterChina);
+		System.out.println();
 
-        // Complete the code below for Souvenir Purchases
+		dollarsSpentInBotswana = pulaSpent / pulaExchangeRate;
+		dollarsAfterBotswana = dollarsAfterChina - dollarsSpentInBotswana;
+		System.out.println("Botswana:");
+		System.out.println("   Pula Spent:                  " + pulaSpent);
+		System.out.println("   US dollars equivalent:       " + dollarsSpentInBotswana);
+		System.out.println("   US Dollars remaining:        " + dollarsAfterBotswana);
 
-	System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		System.out.println("===================================================");
+		System.out.println("Remaining US dollars:           " + dollarsAfterBotswana);
+		System.out.println();
+		System.out.println();
+
+		//Souvenir Purchases
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 		System.out.println("Souvenir Purchases");
 		System.out.println(" (all values in US Dollars) ");
 		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
 		//Calculations for Souvenir #1
-		int costItem1 = 12;  						//cost per item of first souvenir
-		int budget1 = 100;   						//budget for first item
-		int totalItems1 = 0; 		//how many items can be purchased
-		int fundsRemaining1 = 0;  //how much of the budget is left
+		int costItem1 = 12;  				//cost per item of first souvenir
+		int budget1 = 100;   				//budget for first item
+		int totalItems1 = 0; 	            //how many items can be purchased
+		int fundsRemaining1 = 0;            //how much of the budget is left
 
+		totalItems1 = budget1 / costItem1;
+		fundsRemaining1 = budget1 % costItem1;
 		System.out.println("Item 1");
 		System.out.println("   Cost per item: $" + costItem1 );
-		System.out.println("   Budget: $"+ budget1);
+		System.out.println("   Budget: $" + budget1);
 		System.out.println("   Total items purchased: " +  totalItems1);
 		System.out.println("   Funds remaining: $"  +  fundsRemaining1);
      	System.out.println();
 
 		//Calculations for Souvenir #2
-		double costItem2 = 29.99;  						//cost per item of second souvenir
-		int budget2 = 500;   							//budget for second item
-		int totalItems2 = 0; 	//how many items can be purchased
-		double fundsRemaining2 = 0.0;  	//how much of the budget is left
+		double costItem2 = 29.99;
+		int budget2 = 500;
+		int totalItems2 = 0;
+		double fundsRemaining2 = 0.0;
 
+		totalItems2 = (int) (budget2 / costItem2);
+		fundsRemaining2 = budget2 % costItem2;
 		System.out.println("Item 2");
 		System.out.println("   Cost per item: $" + costItem2 );
-		System.out.println("   Budget: $"+ budget2);
+		System.out.println("   Budget: $" + budget2);
 		System.out.println("   Total items purchased: " +  totalItems2);
 		System.out.println("   Funds remaining: $"  +  fundsRemaining2);
-
-    } // end of main method
-} // end of class
+    }
+}
 
