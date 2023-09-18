@@ -1,3 +1,10 @@
+/**
+ * This program does basic arithmetic
+ *
+ *
+ * @author Cristopher Encarnacion
+ * @version 09/18/23
+ */
 public class Calc
 {
     public static void main(String[] args)
