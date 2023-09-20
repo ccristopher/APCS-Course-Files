@@ -1,3 +1,9 @@
+/**
+ * This program collects info to purchase movie tickets and generates an e-receipt.
+ *
+ * @author Cristopher Encarnacion
+ * @version 09/20/23
+ */
 import java.util.Scanner;
 public class BuyMovieTickets
 {

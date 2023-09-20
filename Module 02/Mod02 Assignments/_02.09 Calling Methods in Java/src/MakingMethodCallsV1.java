@@ -1,12 +1,12 @@
 /**
- * Without modifying any of the method signatures, correct add method calls to the
+ * Without modifying any of the method signatures, correctly add method calls to the
  * already created methods in the main() below
  *
  * APCS Team 2020 (Edited by: Cristopher Encarnacion)
  *
  * 09/19/2023
  */
-public class MakingMethodCalls1
+public class MakingMethodCallsV1
 {
     public static void addTheseTwo()
     {
