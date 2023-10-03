@@ -3,9 +3,9 @@
  *
  *
  * @author Cristopher Encarnacion
- * @version 09/18/23
+ * @version 09/25/23
  */
-public class Calc
+public class Calcv2
 {
     public static void main(String[] args)
     {
