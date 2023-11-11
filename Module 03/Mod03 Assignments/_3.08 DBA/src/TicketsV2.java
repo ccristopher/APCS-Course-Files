@@ -8,7 +8,7 @@
  */
 import java.util.Scanner;
 
-public class Tickets {
+public class TicketsV2 {
     public static void printTicket(String name, String id, double price) {
         System.out.println("Welcome to the APCS Carnival, " + name + "!");
         System.out.println("Your user ID is " + id);
@@ -18,6 +18,8 @@ public class Tickets {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        boolean firstResponder;
+        boolean veteran;
 
         // Parameters
         double discount = 0.50; // First responder & veteran discount
@@ -26,22 +28,16 @@ public class Tickets {
         double priceBracket3 = 11; // Individuals 6-18
         double price = 12; // Adults over 18
 
-        // Collect information
+        // Collect first and last name
         System.out.print("Please enter your first and last name: ");
         String name = in.nextLine();
         String lastName = name.substring(name.indexOf(" ") + 1);
 
+        // Collect age
         System.out.print("Please enter your age as a number: ");
         int age = in.nextInt();
 
-        System.out.print("Are you a first responder? [Y] or [N]: ");
-        boolean firstResponder = in.next().equalsIgnoreCase("Y");
-
-        System.out.print("Are you a veteran? [Y] or [N]: ");
-        boolean veteran = in.next().equalsIgnoreCase("Y");
-
-        // Validate age
-        if (age < 0) {
+        if (age < 0) { // Prevent negative age
             System.out.print("Please enter a valid age.");
             System.exit(0);
         }
@@ -57,8 +53,17 @@ public class Tickets {
         else if (age <= 18)
             price = priceBracket3;
 
-        if (veteran || firstResponder)
-            price -= price * discount;
+        // Determine discount if over 18
+        if (age >= 18) {
+            System.out.print("Are you a first responder? [Y] or [N]: ");
+            firstResponder = in.next().equalsIgnoreCase("Y" );
+
+            System.out.print("Are you a veteran? [Y] or [N]: ");
+            veteran = in.next().equalsIgnoreCase("Y");
+
+            if (veteran || firstResponder) // Add discount if applicable
+                price -= price * discount;
+        }
 
         // Print ticket
         System.out.println();

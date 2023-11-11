@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28a52dfa-61de-4f12-80bd-40eb2eb3b962" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Module 03/Mod03 Assignments/_3.08 DBA/src/TicketsV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mod04 Assignments/_04.03 Family Structure/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mod04 Assignments/_04.03 Family Structure/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mod04 Assignments/_04.03 Family Structure/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mod04 Assignments/_04.03 Family Structure/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mod04 Assignments/_04.03 Family Structure/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mod04 Assignments/_04.03 Family Structure/_04.03 Family Structure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mod04 Assignments/_04.03 Family Structure/familyMembers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mod04 Assignments/_04.03 Family Structure/src/Family.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mod04 Assignments/_04.03 Family Structure/src/Family.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mod04 Assignments/_04.03 Family Structure/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mod04 Assignments/_04.03 Family Structure/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 Iterations with While Loops/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 Iterations with While Loops/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 Iterations with While Loops/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 Iterations with While Loops/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 Iterations with While Loops/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 Iterations with While Loops/_04.01 Iterations with While Loops.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 Iterations with While Loops/src/CountingWithWhileLoops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 While Loops Part 1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 While Loops Part 1/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 While Loops Part 1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 While Loops Part 1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 While Loops Part 1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 While Loops Part 1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 While Loops Part 1/_04.01 While Loops Part 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 While Loops Part 1/src/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 While Loops Part 1/src/HeadsOrTailsV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.01 While Loops Part 1/src/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.02 Iterations/_04.02 Iterations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.03 File Reading/_04.03 File Reading.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.03 File Reading/data1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.03 File Reading/data2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.03 File Reading/data3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.03 File Reading/data4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.03 File Reading/data5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.03 File Reading/data6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.03 File Reading/src/TextFileReaderV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_04.03 File Reading/src/TextFileReaderV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CountingWithForLoops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/APCS-Course-Files.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/APCS-Course-Files.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 03/Mod03 Assignments/_3.08 DBA/Tickets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 03/Mod03 Assignments/_3.08 DBA/src/Tickets.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2XUebIOmwoQAjzcI4wELEXj87Ds" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28a52dfa-61de-4f12-80bd-40eb2eb3b962" name="Changes" comment="" />
+      <created>1698688160105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698688160105</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
