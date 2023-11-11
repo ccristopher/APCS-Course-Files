@@ -1,7 +1,9 @@
 public class test {
     public static void main(String[] args) {
-        int num = 14;
-        if(num % 10 != 0)
-            System.out.print(num);
+        int count = 1;
+        for(int outer = 0; outer < 4; outer++)
+            for(int inner = 1; inner < 3; inner++)
+                count++;
+        System.out.println(count);
     }
 }
