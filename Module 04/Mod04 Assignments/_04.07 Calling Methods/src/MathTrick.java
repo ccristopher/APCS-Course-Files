@@ -15,6 +15,9 @@ public class MathTrick {
         int num = 0;
         int firstDigit = 0;
         int lastDigit = 0;
+        num = (int) (Math.random() * 900 + 100);
+        firstDigit = num / 100;
+        lastDigit = num % 10;
         while (Math.abs(firstDigit - lastDigit) < 2) {
             num = (int) (Math.random() * 900 + 100);
             firstDigit = num / 100;
