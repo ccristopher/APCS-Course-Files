@@ -64,7 +64,7 @@ public class CityWeatherTesterV2
         //conditions & method call to convert prec, if needed - to be completed in 6.02
         if(precipScale.equalsIgnoreCase("c")) {
             miami.centimeters();
-            precipScale = "cm.";
+            precipLabel = "cm.";
         }
         //method call to calculate the average temperature
         tempAverage = miami.temperatureAverage();
