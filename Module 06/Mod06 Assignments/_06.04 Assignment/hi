@@ -1,0 +1,51 @@
+Grade tracker
+
+Object Class
+class
+    private name
+    private grade1
+    grade2
+
+    constructor
+        name
+        grade1
+        grade2
+
+    getters
+    setters
+
+    Calculate difference
+        double difference
+        return difference
+
+    Calculate average
+        double average
+        return average
+
+    make the printing thing tostring
+
+
+
+Tester Class
+    main
+        name1
+        firstQuiz1
+        secondQuiz1
+
+        name2
+        firstQuiz2
+        secondQuiz2
+
+        name3
+        firstQuiz3
+        secondQuiz3
+
+        continue until 5 are made
+
+        difference = something
+        average = something
+
+        create an array of quiz objects
+
+        system print header
+        for then print tostring + difference + average
