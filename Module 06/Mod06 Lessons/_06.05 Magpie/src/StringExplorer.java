@@ -4,8 +4,8 @@
  *
  * Code adapted from work by Laurie White for the College Board.
  *
- * @author (enter your name)
- * @version (enter today's date)
+ * @author Cristopher Encarnacion
+ * @version 2/5/2024
  */
 public class StringExplorer
 {
@@ -41,16 +41,33 @@ public class StringExplorer
 
         // Assign a new value to sample. Use a phrase of your choosing.
         // Pad the beginning and end of the string literal with spaces.
-        sample = "    ";
+        System.out.println();
+        String sample2 = " The five boxing wizards jump quickly ";
+        System.out.println("sample2 = " + sample2);
+        System.out.println();
 
         //  Add examples below for the following methods:
         //    trim()
+        String trim = sample2.trim();
+        System.out.println("sample2.trim() = " + trim);
         //    length()
+        int length = sample2.length();
+        System.out.println("sample2.length() = " + length);
         //    indexOf with one and two parameters
-        //    substring() with one and two parameters
-        //    compareTo()
-        //    any other String methods you'd like to try
+        position = sample2.indexOf("i");
+        System.out.println("sample2.indexOf(\"i\") = "+ position);
 
+        position = sample2.indexOf("i", position + 1);
+        System.out.println("sample2.indexOf(\"i\", position + 1) = " + position);
+        //    substring() with one and two parameters
+        String substring = sample2.substring(5);
+        System.out.println("sample2.substring(5) = " + substring);
+
+        substring = sample2.substring(5, 16);
+        System.out.println("sample2.substring(5, 16) = " + substring);
+        //    compareTo()
+        int compare = sample2.compareTo(sample);
+        System.out.println("sample2.compareTo(sample) = " + compare);
     }
 
 }
