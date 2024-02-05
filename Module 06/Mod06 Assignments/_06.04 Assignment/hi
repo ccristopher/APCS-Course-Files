@@ -49,3 +49,8 @@ Tester Class
 
         system print header
         for then print tostring + difference + average
+
+
+        create an array of students
+
+        "%-16s %-13s %-2s"
