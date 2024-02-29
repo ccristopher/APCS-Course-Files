@@ -22,7 +22,7 @@ public class CityWeatherTesterV2
         for( int index = 0; index < temperature.length; index++) {
             System.out.printf("%5s", month[index] + ".");
             System.out.printf("%14.1f", temperature[index]);
-            System.out.printf("%19.1f\n", precipitation[index]);
+            System.out.printf("%19.1f%n", precipitation[index]);
         }
 
         System.out.println("***************************************************");

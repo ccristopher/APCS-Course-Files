@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Module 06.iml" filepath="$PROJECT_DIR$/.idea/Module 06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod06 Lessons/_06.01 Numeric Arrays/_06.01 Numeric Arrays.iml" filepath="$PROJECT_DIR$/Mod06 Lessons/_06.01 Numeric Arrays/_06.01 Numeric Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod06 Lessons/_06.01 String Arrays/_06.01 String Arrays.iml" filepath="$PROJECT_DIR$/Mod06 Lessons/_06.01 String Arrays/_06.01 String Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod06 Assignments/_06.01 Weather Data/_06.01 Weather Data.iml" filepath="$PROJECT_DIR$/Mod06 Assignments/_06.01 Weather Data/_06.01 Weather Data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod06 Lessons/_06.02 Formatting Output/_06.02 Formatting Output.iml" filepath="$PROJECT_DIR$/Mod06 Lessons/_06.02 Formatting Output/_06.02 Formatting Output.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod06 Assignments/_06.02 Weather Data/_06.02 Weather Data.iml" filepath="$PROJECT_DIR$/Mod06 Assignments/_06.02 Weather Data/_06.02 Weather Data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod06 Lessons/_06.04 Arrays of Objects/_06.04 Arrays of Objects.iml" filepath="$PROJECT_DIR$/Mod06 Lessons/_06.04 Arrays of Objects/_06.04 Arrays of Objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod06 Assignments/_06.04 Assignment/_06.04 Assignment.iml" filepath="$PROJECT_DIR$/Mod06 Assignments/_06.04 Assignment/_06.04 Assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod06 Lessons/_06.05 Magpie/_06.05 Magpie.iml" filepath="$PROJECT_DIR$/Mod06 Lessons/_06.05 Magpie/_06.05 Magpie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod06 Lessons/_06.05 Magpie Lab/_06.05 Magpie Lab.iml" filepath="$PROJECT_DIR$/Mod06 Lessons/_06.05 Magpie Lab/_06.05 Magpie Lab.iml" />
+    </modules>
+  </component>
+</project>

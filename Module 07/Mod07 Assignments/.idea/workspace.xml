@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93c2d196-67d3-44be-be14-bb617f85eb32" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Module 06/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 06/.idea/Module 06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 06/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 06/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 06/Mod06 Assignments/_06.04 Assignment/src/hi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07.02 Assignment/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07.02 Assignment/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07.02 Assignment/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07.02 Assignment/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07.02 Assignment/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07.02 Assignment/CheeseCakeTesterV1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07.02 Assignment/CheeseCakeV1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07.02 Assignment/_07.02 Assignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07.02 Assignment/src/CheeseCakeTesterV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07.02 Assignment/src/CheeseCakeV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.01 ArrayLists/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.01 ArrayLists/.idea/_07.01 ArrayLists.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.01 ArrayLists/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.01 ArrayLists/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.01 ArrayLists/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.01 ArrayLists/production/_07.01 ArrayLists/_07.01 ArrayLists.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.01 ArrayLists/src/CalculationsWithArrayLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.01 ArrayLists/src/IntegerArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.01 ArrayLists/src/StringArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.01 ArrayLists/src/_07.01 ArrayLists.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.02 ArrayLists/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.02 ArrayLists/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.02 ArrayLists/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.02 ArrayLists/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.02 ArrayLists/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.02 ArrayLists/_07.02 ArrayLists.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/_07.02 ArrayLists/src/PlanetV11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/untitled/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mod07 Lessons/untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 06/Mod06 Assignments/_06.02 Weather Data/src/CityWeatherTesterV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module 06/Mod06 Assignments/_06.02 Weather Data/src/CityWeatherTesterV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 06/Mod06 Lessons/_06.05 Magpie/src/StringExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module 06/Mod06 Lessons/_06.05 Magpie/src/StringExplorer.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2d18jDXkRzhocfmI8AraRhOrkJ8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/APCS-Course-Files/Module 07/Mod07 Assignments"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93c2d196-67d3-44be-be14-bb617f85eb32" name="Changes" comment="" />
+      <created>1709164357691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709164357691</updated>
+    </task>
+    <servers />
+  </component>
+</project>

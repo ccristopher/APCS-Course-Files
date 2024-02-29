@@ -37,7 +37,7 @@ public class StringExplorer
         System.out.println();
 
         boolean isEqual = sample.equals(sample.toLowerCase());
-        System.out.println("sample.equals(sample.toLowerCase() = "+ isEqual);
+        System.out.println("sample.equals(sample.toLowerCase()) = "+ isEqual);
 
         // Assign a new value to sample. Use a phrase of your choosing.
         // Pad the beginning and end of the string literal with spaces.
