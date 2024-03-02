@@ -62,6 +62,18 @@ public class ElectionTesterV7 {
         System.out.println("<< Before " + find + ", add " + name + ", " + vote + " votes >>\n");
         insertCandidate2(candidates, find, name, vote);
         printTable(candidates);
+
+        location = 4;
+
+        System.out.println("<< Delete position " + location + " >>\n");
+        deleteByLoc(candidates, location);
+        printTable(candidates);
+
+        name = "Roberto Alarcon";
+
+        System.out.println("<< Delete " + name + " >>\n");
+        deleteByName(candidates, name);
+        printTable(candidates);
     }
 
     // print name and votes of all candidates
@@ -89,7 +101,7 @@ public class ElectionTesterV7 {
         System.out.println("Candidate        Recieved            Votes");
         System.out.println("============================================");
         for (int i = 0; i < candidateList.length; i++) {
-            if (candidateList != null) {
+            if (candidateList[i] != null) {
                 System.out.printf("%-18s %-5d %18.2f\n", candidateList[i].getName(), candidateList[i].getVotes(),
                         ((double) candidateList[i].getVotes() / totalVotes(candidateList)) * 100);
             }
