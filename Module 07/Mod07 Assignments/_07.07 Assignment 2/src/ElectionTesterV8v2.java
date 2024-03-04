@@ -7,7 +7,7 @@
 
 import java.util.ArrayList;
 import java.util.List;
-public class ElectionTesterV8 {
+public class ElectionTesterV8v2 {
     public static void main(String[] args) {
         // create array of candidates
         List<Candidate> candidates = new ArrayList<Candidate>();
@@ -63,6 +63,18 @@ public class ElectionTesterV8 {
 
         System.out.println("<< Before " + find + ", add " + name + ", " + vote + " votes >>\n");
         insertCandidate2(candidates, find, name, vote);
+        printTable(candidates);
+
+        location = 4;
+
+        System.out.println("<< Delete position " + location + " >>\n");
+        deleteByLoc(candidates, location);
+        printTable(candidates);
+
+        name = "Roberto Alarcon";
+
+        System.out.println("<< Delete " + name + " >>\n");
+        deleteByName(candidates, name);
         printTable(candidates);
     }
 
@@ -125,22 +137,52 @@ public class ElectionTesterV8 {
         }
     }
 
+    // inserts candidate to a position
     public static void insertCandidate(List<Candidate> candidateList, int location, String name, int vote)
     {
-        // insert item into ArrayList
+        // insert candidate into ArrayList
         candidateList.add(location, new Candidate(name, vote));
     }
 
+    // inserts a candidate before another candidate
     public static void insertCandidate2(List<Candidate> candidateList, String find, String name, int vote)
     {
         int location = 0;
 
-        // find location of item you want to insert before
+        // find location of candidate you want to insert before
         for(int index = 0; index < candidateList.size(); index++)
             if(candidateList.get(index).getName().equals(find))
                 location = index;
 
-        // insert item into ArrayList
+        // insert candidate into ArrayList
         candidateList.add(location, new Candidate(name, vote));
+    }
+
+    // delete candidate in a location
+    public static void deleteByLoc(List<Candidate> candidateList, int location)
+    {
+        // delete candidate from ArrayList
+        candidateList.remove(location);
+    }
+
+    // delete candidate by name
+    public static void deleteByName(List<Candidate> candidateList, String find)
+    {
+        int location = 0;
+        int index;
+
+        // find location of candidate you want to delete
+        for(index = 0; index < candidateList.size(); index++)
+        {
+            if(candidateList.get(index).getName().equals(find))
+            {
+                location = index;
+                break;
+            }
+        }
+
+        // delete candidate from ArrayList
+        if (index != candidateList.size())
+            candidateList.remove(location);
     }
 }
