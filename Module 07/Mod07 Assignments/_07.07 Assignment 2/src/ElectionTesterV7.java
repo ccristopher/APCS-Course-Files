@@ -62,6 +62,18 @@ public class ElectionTesterV7 {
         System.out.println("<< Before " + find + ", add " + name + ", " + vote + " votes >>\n");
         insertCandidate2(candidates, find, name, vote);
         printTable(candidates);
+
+        location = 4;
+
+        System.out.println("<< Delete position " + location + " >>\n");
+        deleteByLoc(candidates, location);
+        printTable(candidates);
+
+        name = "Roberto Alarcon";
+
+        System.out.println("<< Delete " + name + " >>\n");
+        deleteByName(candidates, name);
+        printTable(candidates);
     }
 
     // print name and votes of all candidates
@@ -89,7 +101,7 @@ public class ElectionTesterV7 {
         System.out.println("Candidate        Recieved            Votes");
         System.out.println("============================================");
         for (int i = 0; i < candidateList.length; i++) {
-            if (candidateList != null) {
+            if (candidateList[i] != null) {
                 System.out.printf("%-18s %-5d %18.2f\n", candidateList[i].getName(), candidateList[i].getVotes(),
                         ((double) candidateList[i].getVotes() / totalVotes(candidateList)) * 100);
             }
@@ -124,20 +136,23 @@ public class ElectionTesterV7 {
             }
         }
     }
+
+    // inserts candidate to a position
     public static void insertCandidate(Candidate[] candidateList, int location, String name, int vote)
     {
-        //move items down in the array - last item is lost
+        //move candidates down in the array - last candidate is lost
         for(int index = candidateList.length - 1; index > location; index--)
             candidateList[index] = candidateList[index-1];
 
         candidateList[location] = new Candidate(name, vote);
     }
 
+    // inserts a candidate before another candidate
     public static void insertCandidate2(Candidate[] candidateList, String find, String name, int vote)
     {
         int location = 0;
 
-        // find location of item you want to insert before
+        // find location of candidate you want to insert before
         for(int index = 0; index < candidateList.length; index++) {
             if((candidateList[index] != null) && (candidateList[index].getName().equals(find))) {
                 location = index;
@@ -149,18 +164,19 @@ public class ElectionTesterV7 {
             }
         }
 
-        //move items down in the array - last item is lost
+        //move candidates down in the array - last candidate is lost
         for(int index = candidateList.length - 1; index > location; index--)
             candidateList[index] = candidateList[index-1];
 
         candidateList[location] = new Candidate(name, vote);
     }
 
+    // delete candidate in a location
     public static void deleteByLoc(Candidate[] candidateList, int location)
     {
         if ((location > 0) && (location < candidateList.length))
         {
-            //move items up in the array -
+            //move candidates up in the array -
             for(int index = location; index < candidateList.length -1; index++)
                 candidateList[index] = candidateList[index + 1];
 
@@ -168,12 +184,13 @@ public class ElectionTesterV7 {
         }
     }
 
+    // delete candidate by name
     public static void deleteByName(Candidate[] candidateList, String find)
     {
         int location = 0;
         int index;
 
-        // find location of item you want to delete
+        // find location of candidate you want to delete
         for(index = 0; index < candidateList.length; index++)
             if((candidateList[index] != null) && (candidateList[index].getName().equals(find)))
             {
@@ -188,7 +205,7 @@ public class ElectionTesterV7 {
 
         if ((index != candidateList.length) && (location >= 0))
         {
-            //move items up in the array
+            //move candidate up in the array
             for(index = location; index < candidateList.length -1; index++)
                 candidateList[index] = candidateList[index + 1];
 
