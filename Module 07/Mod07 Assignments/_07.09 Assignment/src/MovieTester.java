@@ -1,15 +1,13 @@
 /**
- * Purpose: Print and modify student grade data
+ * Purpose: Print and movie data
  *
  * @author Cristopher Encarnacion
- * @version 03/01/24
+ * @version 03/08/24
  */
 
 public class MovieTester {
     public static void main(String[] args) {
-        // Create array of students
         Movie[] movies = new Movie[10];
-        Movie[] sorted = new Movie[10];
 
         movies[0] = new Movie("Wall-E", 2008, "Pixar");
         movies[1] = new Movie("Encanto", 2021, "Disney");
@@ -22,13 +20,28 @@ public class MovieTester {
         movies[8] = new Movie("Sing 2", 2021, "Illumination");
         movies[9] = new Movie("TENET", 2020, "Warner");
 
-        System.out.println("Starting Gradebook:\n");
+        System.out.println("Starting data:\n");
         printTable(movies);
 
-        printTable(insertionMovie(movies));
+        System.out.println("\nSorting movies by title (ascending):\n");
+        printTable(insertionMovie(movies, 1)); // 1 = ascending; 2 = descending
+
+        System.out.println("\nSorting movies by title (descending):\n");
+        printTable(insertionMovie(movies, 2));
+
+        System.out.println("\nSorting movies by year released (ascending):\n");
+        printTable(insertionYear(movies, 1));
+
+        System.out.println("\nSorting movies by year released (descending):\n");
+        printTable(insertionYear(movies, 2));
+
+        System.out.println("\nSorting movies by studio (ascending):\n");
+        printTable(insertionStudio(movies, 1));
+
+        System.out.println("\nSorting movies by studio (descending):\n");
+        printTable(insertionStudio(movies, 2));
     }
 
-    // Prints the gradebook table
     public static void printTable(Movie[] movies)
     {
         System.out.println("Title\t\t\t  Year\t Studio");
@@ -38,7 +51,7 @@ public class MovieTester {
                     movie.getStudio());
         }
     }
-    public static Movie[] insertionMovie(Movie[] source)
+    public static Movie[] insertionMovie(Movie[] source, int order) // insertion sort
     {
         Movie[] dest = new Movie[ source.length ];
 
@@ -49,7 +62,85 @@ public class MovieTester {
             int k = i;
             while( k > 0 && insertIndex == 0 )
             {
-                if( next.getTitle().compareTo( dest[k-1].getTitle() ) > 0 )
+                boolean comparison; // check if ascending or descending
+                if(order == 2) {
+                    comparison = (next.getTitle().compareTo( dest[k-1].getTitle() ) < 0);
+                }
+                else {
+                    comparison = (next.getTitle().compareTo( dest[k-1].getTitle() ) > 0);
+                }
+
+                if(comparison)
+                {
+                    insertIndex = k;
+                }
+                else
+                {
+                    dest[ k ] = dest[ k - 1 ];
+                }
+                k--;
+            }
+
+            dest[ insertIndex ] = next;
+        }
+        return dest;
+    }
+
+    public static Movie[] insertionYear(Movie[] source, int order) // insertion sort
+    {
+        Movie[] dest = new Movie[ source.length ];
+
+        for( int i = 0 ; i < source.length ; i++ )
+        {
+            Movie next = source[ i ];
+            int insertIndex = 0;
+            int k = i;
+            while( k > 0 && insertIndex == 0 )
+            {
+                boolean comparison; // check if ascending or descending
+                if(order == 2) {
+                    comparison = (next.getYear() < dest[k-1].getYear());
+                }
+                else {
+                    comparison = (next.getYear() > dest[k-1].getYear());
+                }
+
+                if(comparison)
+                {
+                    insertIndex = k;
+                }
+                else
+                {
+                    dest[ k ] = dest[ k - 1 ];
+                }
+                k--;
+            }
+
+            dest[ insertIndex ] = next;
+        }
+        return dest;
+    }
+
+    public static Movie[] insertionStudio(Movie[] source, int order) // insertion sort
+    {
+        Movie[] dest = new Movie[ source.length ];
+
+        for( int i = 0 ; i < source.length ; i++ )
+        {
+            Movie next = source[ i ];
+            int insertIndex = 0;
+            int k = i;
+            while( k > 0 && insertIndex == 0 )
+            {
+                boolean comparison; // check if ascending or descending
+                if(order == 2) {
+                    comparison = (next.getStudio().compareTo( dest[k-1].getStudio() ) < 0);
+                }
+                else {
+                    comparison = (next.getStudio().compareTo( dest[k-1].getStudio() ) > 0);
+                }
+
+                if(comparison)
                 {
                     insertIndex = k;
                 }
